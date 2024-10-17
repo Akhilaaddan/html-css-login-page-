@@ -1,0 +1,43 @@
+HTML code:
+<div class = "form - container" >
+<form>
+<label for = " username" > userName : </label>
+<inpuut type = "text" id = "username" name = "username" required>
+<br >
+<label for = "password"> passwoed: </label>
+<input type = " password "id="password" name = "password" required >
+<br>
+<button type = "submit" > submit </button>
+</form>
+</div>
+CSS CODE:
+form -container{
+display : flex;
+justify -content : center;
+align -items :center;
+min-height: 100vh;
+}
+form{
+width : 50%
+}
+<div class = form - container">
+<form>
+<label for = "username "> username : </label>
+<input type = "text id = "username " name ="username" required>
+<br>
+<label for = "password"> password: </label>
+<input type = "password" id = "password" name = "password" required>
+<br>
+<button type = "submit" > submit </button>
+</form>
+</div>
+</style>
+form - container {
+display : flex;
+justify - content : center;
+align -items :center;
+min -height : 100vh;
+{
+form{
+width : 50%
+}
